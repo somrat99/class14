@@ -1,0 +1,99 @@
+img {
+    max-width: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.full-site {
+    background-image: url(./image/shop.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 40px 0px;
+    background-repeat: no-repeat;
+}
+
+.heading h2 {
+    text-align: center;
+    font-family: 'Dongle', sans-serif;
+    font-size: 60px;
+}
+
+.product-heading h3 {
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    padding: 10px 0px;
+    padding-left: 0px;
+    padding-left: 15px;
+    font-size: 30px;
+    font-family: 'Spectral SC', serif;
+    border-bottom: 1px dotted #7e7e7e;
+    margin: 0 !important;
+
+}
+
+.products-item ul {
+    list-style: none;
+    background-color: white;
+    padding-left: 0px !important;
+}
+
+.products-item ul li {
+    border-bottom: 1px solid #ddd;
+    padding: 1px 0px;
+    padding-left: 0px;
+    font-size: 23px;
+    padding-left: 15px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.product-list {
+    background-color: white;
+}
+
+#arrows {
+    font-size: 15px;
+    font-weight: 400;
+    color: #f0c6c9;
+    margin-left: 20px;
+}
+
+.show-heading {
+    background-color: #ffffffd9;
+    padding: 8px 0px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    font-family: 'Spectral SC', serif;
+    margin-bottom: 30px;
+}
+
+.product {
+    background-color: #ffffffd9;
+}
+
+.product-discription {
+    padding: 10px;
+    max-height: 500px;
+}
+
+#dis {
+    margin-bottom: 5px;
+}
+
+.product-picture img {
+    width: 270px;
+    height: 200px;
+}
+
+.product-box{
+    display: none;
+}
+/* 
+font-family: 'Dongle', sans-serif;
+font-family: 'IM Fell French Canon', serif;
+font-family: 'Spectral SC', serif;
+font-family: 'Tajawal', sans-serif; */
